@@ -37,7 +37,6 @@ section {
 
 ul {
     list-style-position: inside;
-
 }
 
 /*Project 1: Buttons*/
@@ -65,4 +64,34 @@ background: darkblue;
 
 .btn-glow:hover{
     box-shadow: 10 10 100px purple
+}
+
+
+/*Project 2: Photo Gallery*/
+.gallery img {
+width: 180px; /*Sets each images width*/
+height: 120px; /*sets each images height*/
+object-fit: cover; /*Ensure the image files the box without distortion*/
+border-radius: 6px; /*Ensures the image cornors slightly*/
+transition: all; 0.3 ease; /*Smoothly animates changes on hover*/
+gap: 10px;}
+
+/*Hover Effect 1:  Scale and Fade*/
+.hover-one: .hover{
+transform: rotate 
+box-shadow: 0 8px 15px gray; /*Adds a soft shadow behind the image (when hovered) */
+opacity: 1; 
+}
+
+
+/* Hover effect 2: Grayscale to Color Fade*/
+.hover-two  {
+    filter: grayscale(100%);
+    transition: filter 0.4s, transform 0.3s; /*Smoothly animates both filter (gray) and movement*/
+}
+
+/*Hover Effect 3: Scale and Fade*/
+.hover-three: hover;{
+    transform: scale(1.65); /*Slightly enlarges image on hover*/
+    opacity: 0.5; /*Makes the image slightly transparent
 }
