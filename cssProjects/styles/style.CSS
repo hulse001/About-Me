@@ -12,8 +12,8 @@ width: 100%;
 }
 
 nav a {
-    color:gold
-    margin; 0 10 px
+    color:gold;
+    margin: 0 10px;
 }
 
 body {
@@ -30,7 +30,7 @@ section {
     padding: 20px;
     margin: 20px auto;
     min-width: 800px;
-    width:75%
+    width:75%;
     background: white;
     box-shadow: 0 2px 6px rgba(0,0,0,0.2);
 }
@@ -73,25 +73,26 @@ width: 180px; /*Sets each images width*/
 height: 120px; /*sets each images height*/
 object-fit: cover; /*Ensure the image files the box without distortion*/
 border-radius: 6px; /*Ensures the image cornors slightly*/
-transition: all; 0.3 ease; }/*Smoothly animates changes on hover*/
-gap: 10px;}
+transition: all 0.3 ease; /*Smoothly animates changes on hover*/
+gap: 10px;
+}
 
 /*Hover Effect 1:  Scale and Fade*/
-.hover-one: .hover{
-transform: rotate 
+.hover-one:hover{
+transform: rotate; 
 box-shadow: 0 8px 15px gray; /*Adds a soft shadow behind the image (when hovered) */
 opacity: 1; 
 }
 
 
 /* Hover effect 2: Grayscale to Color Fade*/
-.hover-two  {
+.hover-two{
     filter: grayscale(100%);
     transition: filter 0.4s, transform 0.3s; /*Smoothly animates both filter (gray) and movement*/
 }
 
 /*Hover Effect 3: Scale and Fade*/
-.hover-three: hover;{
+.hover-three:hover{
     transform: scale(1.65); /*Slightly enlarges image on hover*/
-    opacity: 0.5; /*Makes the image slightly transparent
+    opacity: 0.5; /*Makes the image slightly transparent*/
 }
