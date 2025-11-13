@@ -12,7 +12,7 @@ footer {
 }
 
 main {
-    background-color: darkslategray;
+    background-color: darkslategray ;
     background-image: url("https://www.transparenttextures.com/patterns/back-pattern.png");
     color: black;
     width: 100%;
@@ -68,7 +68,7 @@ nav a:hover {
     width: 100%;
     padding: 8px;
     border-radius: 6px;
-    border: 1px solid gold;
+    border: 1px solid beige;
 }
 
 .contact-form input[type="color"],
@@ -79,7 +79,7 @@ nav a:hover {
 .contact-form button {
     width: 100%;
     padding: 10px;
-    background-color: gold;
+    background-color: beige;
     border: none;
     color: black;
     font-size: 16px;
@@ -100,10 +100,10 @@ nav a:hover {
 /* TABLE FOR JAVASCRIPT ASSIGNMENT */
 #resultContainer {
     margin-top: 30px;
-    background: white;
+    background: red;
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 4px 8px yellow;
+    box-shadow: 0 4px 8px beige;
     width: 80%;
     max-width: 700px;
 }
