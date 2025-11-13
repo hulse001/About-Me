@@ -1,9 +1,9 @@
 header,
 nav,
 footer {
-    background-color: black;
+    background-color: navy;
     /* black background */
-    color: white;
+    color: beige;
     /* white text so it’s readable */
     text-align: center;
     /* center text */
@@ -12,7 +12,7 @@ footer {
 }
 
 main {
-    background-color: #1a1010;
+    background-color: darkslategray;
     background-image: url("https://www.transparenttextures.com/patterns/back-pattern.png");
     color: black;
     width: 100%;
@@ -44,7 +44,7 @@ nav a:hover {
 }
 
 .contact-form {
-    background: white;
+    background:grey;
     padding: 25px;
     border-radius: 10px;
     box-shadow: 0 4px 8px gold;
@@ -114,12 +114,12 @@ nav a:hover {
 }
 
 #resultTable th, #resultTable td {
-    border: 1px solid blue;
+    border: 1px solid black;
     padding: 10px;
     text-align: left;
 }
 
 #resultTable th {
-    background-color: #007bff;
+    background-color: #00c8ff;
     color: white;
 }
